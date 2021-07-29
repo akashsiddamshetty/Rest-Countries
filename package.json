@@ -1,6 +1,6 @@
 {
-  "homepage": "https://akashsiddamshetty.github.io/Rest-Countries",
   "name": "rest-countries",
+  "homepage": "https://akashsiddamshetty.github.io/Rest-Countries",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

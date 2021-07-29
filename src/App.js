@@ -30,7 +30,7 @@ export default function App() {
         <Switch>
           <Route path="/" exact>
 
-            <Section />
+            <Section/>
           </Route>
           <Route path="/CountryDetails/:id" component={CountryDetails} />
         </Switch>
