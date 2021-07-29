@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; 
+
+    h2{
+        @include breakpoint-down(small)
+        {
+            font-size: 20px;
+        }
+    }
+}
+
+button{
+    background: none;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    i{
+        padding-right: 5px;
+    }
+    @include breakpoint-down(small){
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,103 @@
+.card{
+    height: 335px;
+    width: 265px;
+    margin-bottom: 50px;
+    padding: 0 0 20px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    img{
+        height: 160px;
+        width: 100%;
+        object-fit: cover;
+    }
+    p{
+        font-weight: 600;
+        padding-bottom: 3px;
+    }
+    a:link{
+        text-decoration: none;
+    }
+}
+.CardInfo{
+    text-align: left;
+    font-size: 14px;
+    padding: 20px;
+
+    h2{
+        font-size: 18px;
+    }
+    p{
+        margin: 0;
+    }
+}
+
+span{
+    font-weight: 600;
+    padding-right: 5px;
+    display: inline-block;
+    
+}
+
+.col{
+    width: 265px;
+}
+
+.countryblb{
+    padding: 2px;
+    height: 25px;
+    margin-right: 5px;
+}
+.border-card{
+    width: 500px;
+    padding: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+    span{
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    }
+    @include breakpoint-down(small){
+        width: 300px;
+        height: 155px;
+        margin-top: 180px;
+    }
+}
+
+.details-card-h2{
+    h2{
+        padding-top: 30px;
+        height: 0px;
+    }
+
+}
+.details-card
+{
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @include breakpoint-down(small)
+    {
+        flex-direction: column;
+    }
+}
+
+.flag-img{
+    height: 400px;
+    width: 560px;
+
+    @include breakpoint-down(small)
+    {
+        height: 210px;
+        width: 300px;
+    }
+}
