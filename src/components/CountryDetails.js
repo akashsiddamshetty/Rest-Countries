@@ -21,7 +21,7 @@ class CountryDetails extends Component {
     }
 
     fetchData() {
-        return fetch('https://restcountries.eu/rest/v2/all')
+        return fetch('https://restcountries.com/v3.1/all')
             .then(res => res.json())
             .then(data => {
                 let result = data.find(country => country.alpha3Code === this.state.id);
